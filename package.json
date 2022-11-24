@@ -1,0 +1,15 @@
+{
+  "name": "entregavel_iv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-primoJS.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
