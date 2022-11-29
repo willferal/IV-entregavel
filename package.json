@@ -1,14 +1,22 @@
 {
-  "name": "entregavel_iv",
+  "name": "iv-entregavel",
   "version": "1.0.0",
   "description": "",
   "main": "1-primoJS.js",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willferal/IV-entregavel.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willferal/IV-entregavel/issues"
+  },
+  "homepage": "https://github.com/willferal/IV-entregavel#readme",
   "devDependencies": {
     "jest": "^29.3.1"
   }
