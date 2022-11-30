@@ -1,15 +1,21 @@
-function funcaoFibo(n){
-    var term1 =0
-    var term2 = 1
-    var term3
-
-    // document.write(term1+ ", "+ term2);
-
-    for(i = 3; i <= n; i++){
-        term3 = term1 + term2
-        document.write(", "+ term3)
-        term1 = term2
-        term2 = term3
+function fibonacci(seqFibonacci) {
+    let n1, n2, sucessor;
+    n1 = 0;
+    n2 = 1;
+    if (seqFibonacci <= 0){
+        return []
+    } else if (seqFibonacci == 1) {
+        return [0]
+    } else if (seqFibonacci == 2) {
+        return [0, 1]
     }
-}
-
+    numeros = [0, 1]
+    for (i = 2; i < seqFibonacci; i ++) {
+        sucessor = n1 + n2;
+        n1 = n2;
+        n2 = sucessor;
+        numeros.push(sucessor);
+    }
+    return numeros
+    }
+module.exports = fibonacci;
